@@ -10,6 +10,7 @@ Dependencies: SFML --to install: sudo apt-get install libsfml-dev
 **********************************************************************
 
 This program uses regex to parse a Kronos log to detect boot starts, completion status, and boot time.
+Included a few sample log files.
 
 e = regex("\\(log\\.c\\.166\\) server started");
 This regex is used to capture the server start message to indicate when a device has booted up. It captures "(log.c.166) server started" specifically.
